@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title>Path Count</title>
+	<style>
+		th, td {
+  			border: 1px solid black;
+  			border-collapse: collapse;
+		}
+		table{
+			width: 50%;
+		}		
+	</style>
+</head>
+<body>
+<h1>Path Counter</h1><br>
+	<div>
+	<table>
+	<tr>
+	<th>PATH</th>
+	<th>COUNT</th>
+	</tr>
+	{%for row in rows%}
+	<tr>
+		<td>{{row[0]}}</td>
+		<td>{{row[1]}}</td>
+	</tr>
+	{% endfor %}
+	</table>
+	</div>
+</body>
+</html>
