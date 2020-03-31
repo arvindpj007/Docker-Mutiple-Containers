@@ -1,3 +1,3 @@
-# docker mutiple container
+# Services Spanning Multiple Contianers
 
-Creating a simple service by interaction of multiple services.
+Creating a service that spans across multiple containers in docker.
